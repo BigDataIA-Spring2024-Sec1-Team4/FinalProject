@@ -33,9 +33,10 @@ Our focus is on enhancing user satisfaction, facilitating informed decision-maki
 
 
 ## Team Information and Contribution 
+WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK
 
-Name           | NUID          |
----------------|---------------|
-Anirudh Joshi  | 002991365     |      
-Nitant Jatale  | 002776669     |      
-Rutuja More    | 00272782      |      
+Name           | NUID          |  Contribution |
+---------------|---------------|---------------|
+Anirudh Joshi  | 002991365     |     33.33%    |       
+Nitant Jatale  | 002776669     |     33.33%    |
+Rutuja More    | 00272782      |     33.33%    |
