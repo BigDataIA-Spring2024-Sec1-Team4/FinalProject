@@ -1,40 +1,36 @@
-name: CI
+name: Python application test
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  test-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # Adjust this to match the Python version you need
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'  # Set this to the Python version you use
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest fastapi httpx pytest-asyncio
+        # Ensure you include all necessary packages
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install fastapi[all] pytest httpx uvicorn
-          cd backend
-
-      - name: Run Pytest
-        run: |
-        cd backend  
+    - name: Change to backend directory and run Pytest
+      run: |
+        cd backend
         pytest Pytest_fastapi.py
 
-      - name: Start FastAPI server
-        if: success()
-        run: |
+    - name: Start FastAPI server
+      if: success()
+      run: |
           uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-        env:
-          PORT: 8000
+      env:
+        PORT: 8000
