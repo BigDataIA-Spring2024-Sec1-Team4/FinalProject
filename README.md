@@ -5,7 +5,7 @@
 
 [![Codelabs](https://img.shields.io/badge/Codelabs-blue?style=for-the-badge)](https://codelabs-preview.appspot.com/?file_id=1jFy6Rx0jzpvzu8b_3Qoau-6H9RGZU_eqZh1-KDYAFwI#0)
 
-![Video](https://img.shields.io/badge/Video-CC6699?style=for-the-badge)
+[![Video](https://img.shields.io/badge/Video-CC6699?style=for-the-badge)](https://youtu.be/mWA-ZNdFogo)
 
 
 ## Problem Statement
