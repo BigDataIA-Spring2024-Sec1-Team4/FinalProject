@@ -50,23 +50,28 @@ Our focus is on enhancing user satisfaction, facilitating informed decision-maki
   - Existing users can log in directly using their credentials.
   - New users are greeted by a chatbot.
   - Answer questions about preferred types of books, mood, theme, and pace.
-  - Receive initial book recommendations based on your answers.
+  - Go to Book Recommendation tab on the Navigation bar to get initial book recommendations based on your answers.
+  
 ![chatbot](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/22d3f1c0-a6a4-4611-af6d-0561402a9ca0)
 
 - Searching for Books:
   - Go to the Search Books Tab.
-  - Search for books by title, author, or ISBN.
+  - Search title of the book you want to see
   - Results are displayed, which you can add to "Started Reading," "To Be Read," or "Read" lists.
+  
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/50bfd72a-ff46-4d9a-af3c-a56a116b95fc)
 
 - User Dashboard:
   - View the books you have added in different categories.
-  - Review books you've read on a scale of 1 to 5.
-  - Refreshing Recommendations:
-  - Navigate to the Book Recommendation Tab.
-  - Click on Refresh Recommendation to receive new suggestions based on your reading history and reviews.
+  - Rate books you've read on a scale of 1 to 5.
+
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/7c7aa84a-07a5-4283-b688-a2b99c9ec1a2)
 
+
+- Refreshing Recommendations:
+  - Navigate to the Book Recommendation Tab.
+  - Click on Refresh Recommendation to receive new suggestions based on your reading history and reviews.
+  
 ![image](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/a5c3b39e-9cdb-48fd-a799-b9e0a47c3845)
 
 ## Project Structure:
