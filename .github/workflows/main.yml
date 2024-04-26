@@ -27,8 +27,9 @@ jobs:
           pip install fastapi[all] pytest httpx uvicorn
           cd backend
 
-      - name: Run pytest
-        run: Pytest_fastapi
+      - name: Test with pytest
+        run: |
+          Pytest_fastapi
 
       - name: Start FastAPI server
         if: success()
