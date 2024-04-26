@@ -3,7 +3,7 @@
 ## Application Links
 [![Application Link](https://img.shields.io/badge/Application-green?style=for-the-badge)](http://34.75.0.13:8500/)
 
-![Codelabs](https://img.shields.io/badge/Codelabs-blue?style=for-the-badge)
+[![Codelabs](https://img.shields.io/badge/Codelabs-blue?style=for-the-badge)](https://codelabs-preview.appspot.com/?file_id=1jFy6Rx0jzpvzu8b_3Qoau-6H9RGZU_eqZh1-KDYAFwI#0)
 
 ![Video](https://img.shields.io/badge/Video-CC6699?style=for-the-badge)
 
