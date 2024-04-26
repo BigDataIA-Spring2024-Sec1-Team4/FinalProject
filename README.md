@@ -25,8 +25,7 @@ Our focus is on enhancing user satisfaction, facilitating informed decision-maki
 
 
 ## Architecture Diagram
-![FinalProjectArchitecture](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/1c2ee965-5a14-4231-b3ce-9bb592a673e2)
-
+![image](https://github.com/BigDataIA-Spring2024-Sec1-Team4/FinalProject/assets/114356265/c19dc353-6f2d-4ef0-be3a-343cf0e64873)
 
 
 ## Technology Stack
