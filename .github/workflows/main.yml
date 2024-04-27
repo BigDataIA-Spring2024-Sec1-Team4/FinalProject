@@ -23,7 +23,7 @@ jobs:
         pip install pytest fastapi httpx pytest-asyncio
         pip install snowflake
         pip install pydantic
-        pip install 
+        pip install -r requirements.txt
         # Ensure you include all necessary packages
 
     - name: Set PYTHONPATH
