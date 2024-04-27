@@ -27,7 +27,8 @@ jobs:
       run: |
         cd backend
         pytest Pytest_fastapi.py
-
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
     - name: Start FastAPI server
       if: success()
       run: |
