@@ -23,12 +23,14 @@ jobs:
         pip install pytest fastapi httpx pytest-asyncio
         # Ensure you include all necessary packages
 
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
+      
     - name: Change to backend directory and run Pytest
       run: |
         cd backend
         pytest Pytest_fastapi.py
-    - name: Set PYTHONPATH
-      run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
+
     - name: Start FastAPI server
       if: success()
       run: |
